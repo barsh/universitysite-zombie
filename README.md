@@ -1,11 +1,16 @@
 # universitysite-zombie
 
-Functional tests for UniversitySite using [Zombie](http://zombie.js.org) (a headless browser) 
+Functional tests for UniversitySite using [Zombie](http://zombie.js.org) (a headless browser)
 and [Mocha](https://mochajs.org) (a testing framework).
 
 ## Installation
 
-`$ npm install -g mocha`
+```
+git clone https://github.com/barsh/universitysite-zombie
+cd universitysite-zombie
+npm install
+npm install -g mocha
+```
 
 ## Configuration
 
