@@ -2,5 +2,6 @@
 
 module.exports = {
   email: 'administrator@domain.com',
-  password: 'example'
+  password: 'example',
+  appRoot: '/UniversitySite'
 }

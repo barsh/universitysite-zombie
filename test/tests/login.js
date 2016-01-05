@@ -27,7 +27,7 @@ describe('User visits login page', () => {
 
   before(  function(done) {
     this.timeout(15000)
-    browser.visit('/universitysite/login?logout', done)
+    browser.visit(`${config.appRoot}/login?logout`, done)
   })
 
   it('should have simple tab', () => {

@@ -3,6 +3,7 @@
 
 const Browser = require('zombie')
 const auth = require('../modules/auth')
+const config = require('../../config')
 
 const routes = [
   '/',
@@ -44,7 +45,7 @@ describe('User logs in', () => {
 
       before(function(done) {
         this.timeout(15000)
-        browser.visit(`/universitysite/insite/#!${route}`, () => done() )
+        browser.visit(`${config.appRoot}/insite/#!${route}`, () => done() )
       })
 
       it('page should load', () => {
