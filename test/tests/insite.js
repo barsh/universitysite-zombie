@@ -28,7 +28,7 @@ const elements = {
 Browser.localhost('local.universitysite.com', 80)
 const browser = new Browser()
 
-describe('User logs in', () => {
+describe('InSite: User logs in', () => {
 
   before( function(done) {
     this.timeout(15000)

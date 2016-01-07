@@ -22,7 +22,7 @@ const xpaths = {
 
 Browser.localhost('local.universitysite.com', 80)
 
-describe('User visits login page', () => {
+describe('Login: User visits login page', () => {
   const browser = new Browser()
 
   before(  function(done) {
