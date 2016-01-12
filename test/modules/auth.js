@@ -10,7 +10,7 @@ const elements = {
 }
 
 function login(browser, done) {
-  browser.visit('${config.appRoot}/login?logout', () => {
+  browser.visit(`${config.appRoot}/login?logout`, () => {
     browser.clickLink(elements.advancedLoginTab, () => {
       browser.fill(elements.email, config.email)
       browser.fill(elements.password, config.password)
